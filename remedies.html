@@ -11,8 +11,10 @@
     <title>Document</title>
     <style>
         body {
+          background-color: #105a9a;
             background-image: url("bg2.jpg");
-            background-repeat: inherit;
+            background-repeat: no-repeat;
+            background-size: contain;
         }
 
         h1 {
@@ -22,12 +24,12 @@
             color: #695bdf;
 
         }
-        .gita {
+        /* .gita {
             margin-left: 100px;
         }
         .youtube {
             margin-left: 50px;
-        }
+        } */
 
         h3 {
             font-family: monospace;
@@ -35,7 +37,7 @@
         }
 
         .content {
-            margin-left: 300px;
+            margin-left: 30px;
             line-height: 30px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
@@ -48,6 +50,23 @@
             font-size: large;
             font-weight: 300;
         }
+        .button{
+
+
+          background-color: white;
+
+        font-family: sans-serif;
+          border-radius: 30px;
+          color: #5474fc ;
+          width: 300px;
+          padding: 20px;
+          border-style: solid ;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+        }
     </style>
 </head>
 
@@ -56,39 +75,48 @@
     <br>
     <div class="content">
         <h3>Remedies: </h3>
-        <p>
-        <ul>
-            <li>Do <strong>yoga</strong> and <strong>exercise</strong> daily in the morning for 30 minutes.</li>
-            <li><strong>Avoid nap in afternoon</strong> and <strong>say no to Computers and Television</strong> or any
-                other
-                electronic gadgets 2 hours before bed.</li>
-            <li>Spend <strong>daily minimum 1 hour in learning a new habit</strong>.</li>
-            <li><strong>Fix a goal in life</strong> and work towards it by taking small small steps each day.</li>
-            <li>Eat healthy meal and <strong>avoid junk food</strong>.</li>
-            <li><strong>Spend quality time with family</strong>, at least 2 hours a day.</li>
-        </ul>
-        </p>
+        <center>
+          <p>
+          <ul>
+              <li>Do <strong>yoga</strong> and <strong>exercise</strong> daily in the morning for 30 minutes.</li>
+              <li><strong>Avoid nap in afternoon</strong> and <strong>say no to Computers and Television</strong> or any
+                  other
+                  electronic gadgets 2 hours before bed.</li>
+              <li>Spend <strong>daily minimum 1 hour in learning a new habit</strong>.</li>
+              <li><strong>Fix a goal in life</strong> and work towards it by taking small small steps each day.</li>
+              <li>Eat healthy meal and <strong>avoid junk food</strong>.</li>
+              <li><strong>Spend quality time with family</strong>, at least 2 hours a day.</li>
+          </ul>
+          </p>
+        </center>
+        <center>
+          <div class="button" onclick="window.open('ar.html')">
+            <p>view the nature in AR</p>
+          </div>
+        </center>
         <p class="help">Helpline Number (24x7): 1800-599-0019 </p>
     </div>
 
 
 
-    <div class="d-flex flex-nowrap bd-highlight">
-        <div class="order-2 p-2 bd-highlight, youtube">
-            <div>
-                <h2>Make yourself comfortable with this <br> youtube video</h2> <br>
-                <iframe width="550" height="250" src="https://www.youtube.com/embed/TK5KOXLT15g" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="order-2 p-2 bd-highlight, gita">
-            <h2>The Holy Bhagavad Gita</h2> <br> <br><br>
-            <div class='embed-responsive' style='padding-bottom:150%'>
-                <object data='Bhagavad-gita.pdf' type='application/pdf' width='550' height='250'></object>
-            </div>
-        </div>
-    </div>
+    <center>
+      <div class="d-flex flex-nowrap bd-highlight">
+          <div class="order-2 p-2 bd-highlight, youtube">
+              <div>
+                  <h2>Make yourself comfortable with this <br> youtube video</h2> <br>
+                  <iframe width="412.5" height="187.5" src="https://www.youtube.com/embed/TK5KOXLT15g" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+              </div>
+          </div>
+          <div class="order-2 p-2 bd-highlight, gita">
+              <h2>The Holy <br>Bhagavad Gita</h2> <br>
+              <div class='embed-responsive' >
+                  <object data='Bhagavad-gita.pdf' type='application/pdf' width='412.5' height='187.5'></object>
+              </div>
+          </div>
+      </div>
+    </center>
 
 </body>
 

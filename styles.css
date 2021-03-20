@@ -7,7 +7,7 @@
   background-image: url("https://i.ibb.co/Zhw0BVq/1.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-color: #5474fc
+  background-color: #5474fc;
 
 }
 
@@ -19,6 +19,7 @@ form{
 }
 
 .heading{
+
 margin-right: 20px;
   font-size: 100px;
   color: white;
@@ -27,6 +28,7 @@ margin-right: 20px;
 }
 
 .subheading{
+
 margin-right: 20px;
   font-size: 30px;
   color: white;
