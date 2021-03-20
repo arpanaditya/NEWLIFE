@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="styles.css">
+        <title>Ebmedded AR.js Experience through echoAR</title>
+        <style>
+            #background {
+                top: 0;
+                left: 0;
+                position: fixed;
+                width: 100%;
+                height: 100%;
+                background-color: #5474fc;
+                z-index: -1;
+          }
+            iframe {
+                position: relative;
+                width: 100%;
+                height: 75vh;
+            }
+        </style>
+    </head>
+    <body>
+      <div class="subheading">
+<center>
+  <p>Allow permission to access your camera, and show the marker image to it, the image can be found<a href="https://i.ibb.co/tzhm8Dp/marker-NEWLIFE-1-1.png" color="white" class="a"> here</a></p>
+
+  </center>
+      </div>
+	    <div id="background"></div>
+
+        <iframe src="https://console.echoAR.xyz/arjs?key=misty-boat-6649"
+                allow="camera *">
+        </iframe>
+    </body>
+</html>
