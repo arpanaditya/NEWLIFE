@@ -7,7 +7,7 @@ NewLife is a website which helps people that are dealing with depression and anx
 # INSPIRATION
 A lot of people experience anxiety and stress on a daily basis, well actually 300 million people worldwide. So that's what inspired us to make something that can help the community.
 
-#STATUS
+# STATUS
 the site is live at https://sumit6873.github.io/NEWLIFE/
 
 # CHALLENGES WE FACED
