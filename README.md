@@ -26,3 +26,6 @@ We'll be integrating better user experience and more features in the near future
 
 # DEMO LINK FOR YOUTUBE
 https://youtu.be/dZgL1OEL-mc
+
+# PPT LINK
+https://drive.google.com/file/d/1eqhzHENUBJsChczrGN5KIPlKR0pvRDB2/view?usp=sharing
